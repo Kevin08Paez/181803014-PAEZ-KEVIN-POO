@@ -77,9 +77,5 @@ public class Usuario {
     public String toString() {
         return "Usuario{" + "id_user=" + id_user + ", nombre=" + nombre + ", password=" + password + ", edad=" + edad + '}';
     }
-
-  
-    
-    
-    
+ 
 }
