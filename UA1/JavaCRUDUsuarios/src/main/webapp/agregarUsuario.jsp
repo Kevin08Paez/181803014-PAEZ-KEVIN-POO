@@ -17,7 +17,6 @@
         stmt.setString(1, request.getParameter("usuario"));
         stmt.setString(2, request.getParameter("password"));
         stmt.setInt(3, Integer.parseInt(request.getParameter("edad")));
-        //stmt.executeUpdate();
 %>
 <html>
     <head>
