@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Tablas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style> table, th, td {border: 1px solid black; border-collapse: collapse;} 
+            th, td {padding: 5px;}
+            table#t01 {width: 100%; background-color: #f1f1c1;}
+            
+            table#t02 {width: 100%; background-color: #f1f1c1;}
+            table#t02 tr:nth-child(even) {
+            background-color: #eee;
+            }
+            table#t02 tr:nth-child(odd) {
+            background-color: #fff;
+            }
+            table#t02 th {
+            background-color: black;
+            color: white;
+            }
+        </style>
+        <!--
+        Si no especifica un borde para la tabla, se mostrará sin bordes.
+        table, th, td {border: 1px solid black;}
+        
+        Si desea que los bordes se contraigan en un borde, agregue la border-collapse propiedad CSS 
+        table, th, td {border: 1px solid black; border-collapse: collapse;}
+        
+        Si no especifica un relleno, las celdas de la tabla se mostrarán sin relleno
+        th, td {padding: 15px;}
+        
+        Para alinear a la izquierda los encabezados de la tabla, use la text-alignpropiedad CSS :
+        th {text-align: left;}
+        
+        Para establecer el espacio entre bordes para una tabla, use la border-spacingpropiedad CSS :
+        table {border-spacing: 5px;}
+        
+        Para definir un estilo especial para una tabla especial, agregue un id atributo a la tabla
+        table#t01 {width: 100%; background-color: #f1f1c1;}
+        -->
+        
+    </head>
+    <body>
+        <table style="width:100%">
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th> 
+              <th>Age</th>
+            </tr>
+            <tr>
+              <td>Jill</td>
+              <td>Smith</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>Eve</td>
+              <td>Jackson</td>
+              <td>94</td>
+            </tr>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>80</td>
+            </tr>
+        </table>
+        
+        <br><br>
+        <!-- Para hacer que una celda abarque más de una columna, use el colspanatributo: -->
+        <table style="width:100%">
+            <tr>
+              <th>Name</th>
+              <th colspan="2">Telephone</th>
+            </tr>
+            <tr>
+              <td>Bill Gates</td>
+              <td>55577854</td>
+              <td>55577855</td>
+            </tr>
+        </table>
+        
+        <br><br>
+        <!-- Para hacer que una celda abarque más de una fila, use el rowspanatributo:-->
+        <table style="width:100%">
+            <tr>
+              <th>Name:</th>
+              <td>Bill Gates</td>
+            </tr>
+            <tr>
+              <th rowspan="2">Telephone:</th>
+              <td>55577854</td>
+            </tr>
+            <tr>
+              <td>55577855</td>
+            </tr>
+        </table>
+        
+        <br><br>
+        <!--Para agregar un título a una tabla, use la <caption>etiqueta -->
+        <table style="width:100%">
+            <caption>Monthly savings</caption>
+            <tr>
+              <th>Month</th>
+              <th>Savings</th>
+            </tr>
+            <tr>
+              <td>January</td>
+              <td>$100</td>
+            </tr>
+            <tr>
+              <td>February</td>
+              <td>$50</td>
+            </tr>
+        </table>
+        
+        <br><br>
+        <!--Para agregar un id -->
+        <table id="t01">
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Age</th>
+            </tr>
+            <tr>
+              <td>Eve</td>
+              <td>Jackson</td>
+              <td>94</td>
+            </tr>
+        </table>
+        
+        <br><br>
+        <table id="t02">
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th> 
+              <th>Age</th>
+            </tr>
+            <tr>
+              <td>Jill</td>
+              <td>Smith</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>Eve</td>
+              <td>Jackson</td>
+              <td>94</td>
+            </tr>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>80</td>
+            </tr>
+        </table>
+        
+        
+        
+        <br><br>
+        <form action="index.html">
+            <input type="hidden" />
+            <input type="submit" value="Regresar"/>
+        </form>
+    </body>
+</html>

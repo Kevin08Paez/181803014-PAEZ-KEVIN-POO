@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- 
+        <form>
+            <label for="fname">Primer Nombre:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Apellidos</label><br>
+            <input type="text" id="lname" name="lname">
+        </form>
+        -->
+        <br><br>
+        <!-- El formulario sea en opciones multiples-->
+        <form>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Iron Man</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Capitán América</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+        </form>
+        
+        <br><br>
+        <!-- Formulario con botón-->
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+        
+        <br><br>
+        <!-- El formulario con texto sombreado en dicho formulario-->
+        <form>
+            <input type="text" placeholder="Escriba su nombre" name="nombre" />
+            <input type="submit" value="Enviar">
+        </form>
+        
+        <br><br>
+        <!-- Formulario que permite elegir más de dos opciones-->
+        <form>
+            <input type="checkbox" name="opc1" value="opc1"> Opción 1
+            <input type="checkbox" name="opc2" value="opc2"> Opción 2
+        </form>
+        
+        
+        <br><br>
+        <form>
+            <input type="button" value="Clic aquí">
+        </form>
+        <br><br>
+        
+        <form>
+            <input type="email" name="correo">
+            <input type="submit" value="Enviar">
+        </form>
+        <br><br>
+        
+        
+        <form>
+            <input type="time" name="tiempo">
+            <input type="submit" value="Enviar">
+        </form>
+        <br><br>
+        
+        <p>Colocar URL</p>
+        <form>
+            <input type="url" name="link">
+            <input type="submit" value="Enviar">
+        </form>
+        <br><br>
+        
+        <p>Lista desplegable</p>
+        <select id="cars" name="cars" >
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br><br>
+        
+        <p>Lista desplegable</p>
+        <select id="lista" name="lista" size="2" >
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br><br>
+        
+        <p>Lista desplegable</p>
+        <div>
+            <style>
+                button, input, select, textarea {
+                font-family : inherit;
+                font-size   : 100%;}
+                
+                select[id=carros] {
+                border: 1px dotted #999;
+                border-radius: 0;
+                -webkit-appearance: none;
+                font-size   : 120%;}
+            </style>
+        </div>
+        <select id="carros" name="cars" size="3" multiple>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+        
+        
+        <p>Caja de texto</p>
+        <textarea name="message" rows="10" cols="30">
+        </textarea>
+        
+        <!-- Formulario con required-->
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <input type="submit" value="Enviar">
+        </form>
+        
+        <br><br>
+        <form action="index.html">
+            <input type="hidden" />
+            <input type="submit" value="Regresar"/>
+        </form>
+    </body>
+</html>
