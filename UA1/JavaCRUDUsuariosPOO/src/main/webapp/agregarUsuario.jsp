@@ -3,9 +3,6 @@
     Created on : 12 jun. 2020, 9:22:07
     Author     : Kevin_Paez
 --%>
-<%@page import="Dao.Usuario"%>
-<%@page import="config.Conexion"%>
-<%@page import="java.sql.*"%>
 <%@page import="Dao.*"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

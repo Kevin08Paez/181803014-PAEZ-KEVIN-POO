@@ -22,7 +22,7 @@
         <div>
             <h1>Los registros para la base de datos son: </h1>
             <div class="containe">
-                <table align="center" class="table table-hover" >
+                <table align="center" class="table table-hover">
                     <thead class="thead-dark">
                         <tr>
                             <td colspan="2"><h2>Usuarios</h2></td>
@@ -33,10 +33,7 @@
                             <th>Nombre</th>
                             <th>Password</th>
                             <th>Edad</th>
-                            <th></th>
-                            <th></th>
-                            <th></th>
-                            <th></th>
+                            <th align="center" colspan="4">Opciones</th>
                         </tr>
                     </thead>
                     <%

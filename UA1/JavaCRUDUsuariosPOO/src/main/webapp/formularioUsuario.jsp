@@ -5,9 +5,7 @@
 --%>
 <%@page import="Dao.UsuarioBD"%>
 <%@page import="Dao.*"%>
-<%@page import="config.Conexion"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@page import="java.sql.*"%>
 
 <%
     String titulo = "Agregar usuario",nom="";

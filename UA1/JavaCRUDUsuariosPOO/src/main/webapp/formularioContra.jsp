@@ -4,10 +4,8 @@
     Author     : Kevin_Paez
 --%>
 
-<%@page import="Dao.Usuario"%>
-<%@page import="Dao.UsuarioBD"%>
+<%@page import="Dao.*"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@page import="java.sql.*"%>
 <%
 
     int id = 0;
